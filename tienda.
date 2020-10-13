@@ -2,18 +2,19 @@
 
 package tienda;
 
-
+//este es un nuevo comentario
 public class Tienda {
 
    
     
     
-    private string nombre; Diore
-    private int numeroDeTrabajadores; 5
-    private Date fechaDeFundacion; 2010
-    private string especialidad; ropa 
-    private Boolean internacional; true
+    private string nombre; Diore //este es el nombre de la tienda
+    private int numeroDeTrabajadores; 5 //son los trabajadores contratados
+    private Date fechaDeFundacion; 2010 //la fecha en la que se fundo la tienda
+    private string especialidad; ropa // es en lo que se desempeña la tienda
+    private Boolean internacional; true // dice si la tienda hace exportaciones o no
 
+    //este es el constructor de clase
     public Tienda(
             string nombre, 
             int numeroDeTrabajadores,
@@ -45,7 +46,7 @@ public class Tienda {
         this.numeroDeTrabajadores += 1;
     }
         
-  
+  // a partir de esta linea se encuentran los metodos get y set
     public string getNombre() {
         return nombre;
     }
@@ -112,4 +113,4 @@ public class Tienda {
     }
     
 }
-    
+   
