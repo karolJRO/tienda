@@ -1,4 +1,4 @@
-# tienda /trabajo karol rodriguez, daniela vidal
+#tienda /trabajo karol rodriguez, daniela vidal
 
 package tienda;
 
